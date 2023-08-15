@@ -8,7 +8,7 @@ def welcome():
 
 print(__name__)
 
-@app.route('/calc',method = ['GET'])
+@app.route('/calc',methods = ['GET'])
 def calc():
     operation = request.json("operation")
     number1 = request.json("number1")

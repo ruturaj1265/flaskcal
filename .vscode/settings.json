@@ -1,4 +1,8 @@
 {
-    "python.analysis.typeCheckingMode": "basic"
+    "python.analysis.typeCheckingMode": "basic",
+
+    "operation":"division",
+        "number1": 100,
+        "number2": 20
         
 }
